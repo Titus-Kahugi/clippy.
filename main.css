@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #dcf5ff;
+  display: grid;
+  height: 100vh;
+  justify-items: center;
+  align-items: center;
+} 
+
+.container {
+  width: 30%;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.container:hover .inner {
+  clip-path: circle(75%);
+}
+
+.inner {
+  background: #00b6ff;
+  padding: 1em;
+  border-radius: 10px;
+  width: 100%; 
+  clip-path: circle(10% at 0 0);
+  transition: clip-path .5s ease-in-out;
+}
+
+.inner h1 {
+  color: #ffffff;
+}
+
+.inner p {
+  color: #ffffff;
+  font-size: .8rem;
+}
