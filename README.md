@@ -1,2 +1,2 @@
 # clippy.
-This is clip-path project.
+This is clip-path project..
